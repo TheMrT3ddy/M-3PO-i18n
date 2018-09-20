@@ -1,0 +1,177 @@
+{
+    "commands": {
+        "ping": "Die Verzögerung ist aktuell {{ping}}ms.",
+        "prefix": {
+            "set": "Du hast dein Präfix gesetzt: `{{prefix}}`.",
+            "current": "Dein aktuelles Präfix ist `{{prefix}}`."
+        },
+        "roles": {
+            "missing": "{{role}} fehlte und wurde wieder hinzugefügt.",
+            "set": "Der Rollenchannel wurde auf {{- channel}} gesetzt.",
+            "noRole": "Ich konnte keine Rolle mit diesem Namen finden.",
+            "added": "Du hast die Rolle {{role}} zu den Nutzerrollen hinzugefügt.",
+            "removed": "Du hast die Rolle {{role}} von den Nutzerrollen entfernt.",
+            "notSet": "Du hast noch keinen Rollenchannel gesetzt.",
+            "notFound": "ich konnte den aktuellen Rollenchannel nicht finden.",
+            "legacy": {
+                "enabled": "Du hast das Legacy-Rollensystem eingeschaltet.",
+                "disabled": "Du hast das Legacy-Rollensystem ausgeschaltet.",
+                "rebuild": "Dies kannst du nicht tun, während das Legacy-Rollensystem aktiv ist."
+            },
+            "embed": {
+                "content": "Um die {{- role}} Rolle zu erhalten, verwende die Reaktionen unten!"
+            },
+            "list": "Die folgenden Rollen sind durch Nutzer annehmbar: {{list}}"
+        },
+        "help": {
+            "sent": "Ich habe dir eine Privatnachricht mit allen Befehlen geschickt!",
+            "nodm": "Ich konnte dich nicht benachrichtigen! Hast du Nachrichten durch diesen Server erlaubt?!",
+            "notfound": "Dies ist kein korrekter Befehl.",
+            "reply": {
+                "alias": "Alias",
+                "alias_plural": "Aliase",
+                "usage": "Nutzung"
+            }
+        },
+        "botlogs": {
+            "enable": "Du hast das Log-System des Bots eingeschaltet.",
+            "disable": "Du hast das Log-System des Bots ausgeschaltet.",
+            "nochannel": "Du hast noch keinen Log-Channel gesetzt.",
+            "set": "Der Channel {{- channel}} wurde als Log-Channel gesetzt.",
+            "notfound": "Der Befehl wurde falsch verwendet oder es gibt keinen Log-Channel."
+        },
+        "role": {
+            "notEnabled": "Das Legacy-Rollensystem ist nicht aktiv.",
+            "notAssignable": "Du kannst dir diese Rolle nicht selbst geben oder sie existiert nicht."
+        },
+        "profile": {
+            "none": {
+                "self": "Für dich ist noch kein profil verfügbar. Versuche mal, einige Chatnachrichten zu senden.",
+                "other": "{{user}} hat kein verfügbares Profil."
+            },
+            "embed": {
+                "title": {
+                    "self": "Dein Profil",
+                    "other": "{{- user}}'s Profil"
+                },
+                "detail": "Du bist aktuell Level {{level}}.\nErfahrung: {{curent}}/{{needed}}"
+            }
+        },
+        "welcome": {
+            "join": {
+                "enabled": "Join-Nachrichten sind aktiv.",
+                "disabled": "Join-Nachrichten sind nicht aktiv."
+            },
+            "leave": {
+                "enabled": "Leave-Nachrichten sind aktiv.",
+                "disabled": "Leave-nachrichten sind nicht aktiv."
+            },
+            "set": "Der Channel {{- channel}} wurde als Join/Leave-Channel eingerichtet.",
+            "auto": {
+                "set": {
+                    "welcome": "I have automatically found the {{- channel}} channel and configured it for join and leave messages.",
+                    "system": "I have automatically found the {{- channel}} channel and configured it for join and leave messages. You should diable the welcome messages in Discord's UI as I don't have permission to change this."
+                },
+                "error": "I couldn't determine a channel to auto-configure. Please setup manually by using `{{prefix}}welcome channel #mention`"
+            }
+        },
+        "punishments": {
+            "noHistory": "gegen diesen Nutzer wurden noch keine Strafen erlassen.",
+            "embed": {
+                "warned": "Gewarnt",
+                "warnedValue": "Warnung von {{- admin}}\nGrund: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "kicked": "Gekickt",
+                "kickedValue": "Kick von {{- admin}}\nGrund: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "banned": "Gebannt",
+                "bannedValue": "Gebannt von {{- admin}}\nGrund: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "title": "Moderationsbericht von {{user}}."
+            },
+            "notWarned": "Dieser Nutzer wurde bisher noch nicht verwarnt.",
+            "notKicked": "Dieser Nutzer wurde bisher noch nicht gekickt.",
+            "notBanned": "Dieser Nutzer wurde bisher noch nicht gebannt.",
+            "tooManyPunishments": "Dieser Nutzer hat bereits zu viele Strafen für eine Seite, bitte spezifiziere nach Art.",
+            "expunged": {
+                "removed": "du hast {{id}} von {{user}} gestrichen.",
+                "noid": "Ich konnte keine Strafe mit dieser ID finden."
+            }
+        },
+        "prune": {
+            "notNumeric": "Du musst eine gültige Nummer angeben.",
+            "notInRange": "Du musst eine Nummer zwischen 2 und 99 angeben.",
+            "pruned": "{{amount}} Nachrichten wurden aus diesem Channel entfernt."
+        },
+        "warn": {
+            "noReason": "Du musst einen Grund für diese Warnung angeben.",
+            "broadcast": "{{admin}} hat {{user}} wegen {{reason}} verwarnt.",
+            "higher": "Du kannst niemanden mit höherem Rang verwarnen."
+        },
+        "kick": {
+            "broadcast": "{{admin}} hat {{user}} wegen {{reason}} gekickt.",
+            "cannot": "Dieser Nutzer kann nicht gekickt werden",
+            "higher": "Du kannst niemanden mit höherem Rang kicken."
+        },
+        "ban": {
+            "broadcast": "{{admin}} hat {{user}} wegen {{reason}} gebannt.",
+            "cannot": "Dieser Nutzer kann nicht gebannt werden.",
+            "higher": "Du kannst niemanden mit höherem Rang bannen."
+        },
+        "hug": {
+            "self": "**{{target}}** du wurdest von {{bot}} umarmt, weil es sonst keiner machen wollte.",
+            "other": "**{{target}}** wurde von **{{user}}** umarmt."
+        },
+        "kiss": {
+            "self": "**{{target}}** hat sich selbst geküsst, was ein Irrer.",
+            "other": "**{{target}}** wurde von **{{user}}** geküsst."
+        },
+        "choke": {
+            "self": "{{target}} hat sich selbst gewürgt, kinky.",
+            "other": "**{{target}}** wurde von *8{{user}}** mit der Macht gewürgt."
+        },
+        "shoot": {
+            "self": "Du kannst dich doch nicht einfach selbst erschießen, 1-800-273-8255.",
+            "other": "**{{user}}** hat auf **{{target}}** geschossen."
+        },
+        "duel": {
+            "self": "Die Regeln sagen du darfst kein Duell gegen dich selbst führen.",
+            "other": "**{{user}}** hat **{{target}}** zu einem Duell herausgefordert."
+        },
+        "swapi": {
+            "notValidType": "Ungültiger Typ. Die Optionen sind wie folgt: {{options}}.",
+            "noResults": "Sorry, ich konnte keine Ergebnisse finden."
+        },
+        "8ball": {
+            "answer": "Die Antwort ist: {{answer}}.",
+            "question": "du musst dem magischen 8ball eine Frage stellen!"
+        },
+        "set": {
+            "leveling": {
+                "enabled": "Das Level-System wurde eingeschaltet.",
+                "disabled": "Das level-System wurde ausgeschaltet."
+            }
+        },
+        "maintenance": {
+            "titles": {
+                "upcoming": "Wartung: Bevorstehend!",
+                "in_progress": "Wartung: aktiv!",
+                "past": "Wartung: abgeschlossen!"
+            },
+            "bodies": {
+                "upcoming": "Die nächste Wartung ist in {{days}} Tagen, {{hours}} Stunden und {{minutes}} Minuten.",
+                "in_progress": "Die Wartung endet in {{days}} Tagen, {{hours}} Stunden und {{minutes}} Minuten.",
+                "past": "Die Wartung wurde vor {{days}} Tagen, {{hours}} Stunden und {{minutes}} Minuten abgeschlossen."
+            },
+            "unavailable": "Es ist aktuell kein Wartungsplan verfügbar.",
+            "connection": "Bei den Versuch, SWTORdata.com zu erreichen, gab es ein Problem."
+        },
+        "noexp": "Dein XP-Gewinn wurde wie folgt eingestellt: {{condition}}.",
+        "credits": "Du hast aktuell so viele Credits: {{credits}}."
+    },
+    "common": {
+        "errors": {
+            "runtime": "Es gab einen Fehler beim Ausführen dieses Befehls.",
+            "nouser": "Es gab ein Problem beim laden der Informationen dieses Nutzers.",
+            "notFound": "Ich konnte diesen Nutzer nicht finden.",
+            "noPermission": "Du bist nicht berechtigt, diesen Befehl zu verwenden."
+        }
+    }
+}

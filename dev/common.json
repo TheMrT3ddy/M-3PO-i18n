@@ -1,0 +1,67 @@
+{
+    "systemMessages": {
+        "joinMessages": [
+            "I hear {{- user}} has the death sentence in twelve systems.",
+            "{{- user}} has landed their ship in docking bay ninety-four.",
+            "{{- user}} just dropped out of hyperspace.",
+            "RAWRGWAWGGR {{- user}} RRWWWGG.",
+            "It's over! {{- user}} has the high ground!",
+            "It is time for {{- user}} to complete their training...",
+            "The force has guided {{- user}} to us.",
+            "You were my brother, {{- user}}. I loved you.",
+            "{{- user}} has come here on the Great Hunt.",
+            "{{- user}} is looking to avoid any... Imperial entanglements.",
+            "T7 + {{- user}} = stop the unstoppable every day!",
+            "{{- user}} has a bad feeling about this.",
+            "Dear Czerka; Please stop discovering horrible ancient things. Love, {{- user}}.",
+            "Do you require anything, {{- user}}? A hot meal, perhaps? Conversation? Foot massage? Just say the word.",
+            "{{- user}} has an excellent sabacc face. That was a joke, they hate sabacc.",
+            "{{- user}} would rather see Alderaan blasted into space debris than be given over to the empire.",
+            "{{- user}} has been called by the Force.",
+            "{{- user}} is tracking a bounty. Anyone here have a price on their head?",
+            "Imperial Intelligence has identified {{- user}} as a person of interest.",
+            "The Republic needs people like {{- user}}!",
+            "{{- user}} has the best hardware and the best prices!",
+            "Be careful not to choke on your aspirations, {{- user}}.",
+            "{{- user}}, we need a statement not a manifesto.",
+            "{{- user}}, now you'll see how Havoc Squad gets things done.",
+            "C’mon {{- user}} old buddy, don’t let me down!",
+            "TK-{{- user}}, why aren’t you at your post?",
+            "{{- user}} is a loyal servant of the Empire.",
+            "{{- user}}’s activities are authorised by Imperial Intelligence.",
+            "Bounty Hunters set their own rules, {{- user}}",
+            "{{- user}} will bring the Republic to its knees.",
+            "Now you'll see what a Sith is capable of, {{- user}}.",
+            "That's not fear I smell is it, {{- user}}?",
+            "{{- user}} is very good at their work.",
+            "{{- user}} is always a professional.",
+            "If there's payment involved {{- user}} is interested.",
+            "Dangerous missions are what {{- user}} does best.",
+            "As a soldier of the Republic it's {{- user}}'s duty to help.",
+            "{{- user}} could charm the horns off a Krayt Dragon.",
+            "{{- user}} has waited twenty thousand years, but they will wait no longer."
+        ],
+        "leaveMessage": "{{- user}} has left the server."
+    },
+    "8ball": {
+        "answers": [
+            "maybe", "no way", "absolutely not", "possibly", "not in a million years",
+            "highly likely", "never", "I would rather not say", "theres a tiny chance",
+            "yes", "probably not", "probably yes", "haha, no", "you have a better chance winning the lottery",
+            "no", "absolutely", "hell yes", "hell no", "I am not really sure", "I don't know", "you don't want to know"
+        ]
+    },
+    "leveling": {
+        "levelup": "**{{user}}** you have reached level {{level}}!"
+    },
+    "time": {
+        "lessThanAMinute": "less than a minute",
+        "uptime": "I have been online for {{time}}.",
+        "day": "{{count}} day",
+        "day_plural": "{{count}} days",
+        "hour": "{{count}} hour",
+        "hour_plural": "{{count}} hours",
+        "minute": "{{count}} minute",
+        "minute_plural": "{{count}} minutes"
+    }
+}

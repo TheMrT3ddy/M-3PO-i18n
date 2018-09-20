@@ -1,0 +1,177 @@
+{
+    "commands": {
+        "ping": "La latence est de {{ping}}ms.",
+        "prefix": {
+            "set": "Vous avez défini le préfixe en tant que `{{prefix}}`.",
+            "current": "Le préfixe actuel est `{{prefix}}`."
+        },
+        "roles": {
+            "missing": "{{role}} manquait et a été rajouté.",
+            "set": "Le salon de rôle est maintenant {{- channel}}.",
+            "noRole": "Je n'ai pas pu trouver un rôle avec ce nom.",
+            "added": "Vous avez ajouté le rôle {{role}} aux rôles des utilisateurs.",
+            "removed": "Vous avez supprimé le rôle {{role}} aux rôles des utilisateurs.",
+            "notSet": "Vous n'avez pas défini de salon de rôle.",
+            "notFound": "Je n'ai pas pu trouver le salon de rôle actuellement défini.",
+            "legacy": {
+                "enabled": "Vous avez activé le système de rôles de l'héritage.",
+                "disabled": "Vous avez désactivé le système de rôles de l'héritage.",
+                "rebuild": "Vous ne pouvez pas faire cela tant que les rôles de l'héritage sont activés."
+            },
+            "embed": {
+                "content": "Si vous voulez le rôle {{- role}}, réagissez en-dessous !"
+            },
+            "list": "Les rôles suivants peuvent être attribués aux utilisateurs: {{list}}"
+        },
+        "help": {
+            "sent": "Je vous ai envoyé un message privé avec toutes les commandes !",
+            "nodm": "Je n'ai pas pu vous envoyer un message privé ! Avez-vous les messages privés désactivés pour ce serveur ?",
+            "notfound": "Ceci n'est pas une commande valide.",
+            "reply": {
+                "alias": "Alias",
+                "alias_plural": "Alias",
+                "usage": "Utilisation"
+            }
+        },
+        "botlogs": {
+            "enable": "Vous avez activé les bot logs.",
+            "disable": "Vous avez désactivé les bot logs.",
+            "nochannel": "Vous n'avez pas défini de salon pour les bot logs.",
+            "set": "Vous avez défini {{- channel}} en tant que salon pour les bot logs.",
+            "notfound": "Vous n'avez pas mentionné de salon ou il ne pouvait pas être trouvé sur ce serveur."
+        },
+        "role": {
+            "notEnabled": "Le système de rôles de l'héritage n'est pas activé sur ce serveur.",
+            "notAssignable": "Vous ne pouvez pas vous attribuer ce rôle ou il n'existe pas."
+        },
+        "profile": {
+            "none": {
+                "self": "Vous n'avez pas de profil disponible, essayez d'abord de parler.",
+                "other": "{{user}} n'a pas de profil disponible."
+            },
+            "embed": {
+                "title": {
+                    "self": "Votre profil",
+                    "other": "Le profil de {{- user}}"
+                },
+                "detail": "Vous êtes niveau {{level}}.\nExpérience: {{curent}}/{{needed}}"
+            }
+        },
+        "welcome": {
+            "join": {
+                "enabled": "Vous avez activé les messages de bienvenue.",
+                "disabled": "Vous avez désactivé les messages de bienvenue."
+            },
+            "leave": {
+                "enabled": "Vous avez activé les messages de départ.",
+                "disabled": "Vous avez désactivé les messages de départ."
+            },
+            "set": "J'ai défini le salon {{- channel}} comme salon de bienvenue/départ.",
+            "auto": {
+                "set": {
+                    "welcome": "J'ai automatiquement trouvé le salon {{- channel}} et je l'ai configuré pour les messages de bienvenue et de départ.",
+                    "system": "J'ai automatiquement trouvé le salon {{- channel}} et je l'ai configuré pour les messages de bienvenue et de départ. Vous devriez désactiver les messages de bienvenue dans les paramètres de Discord car je n'ai pas la permission de le faire."
+                },
+                "error": "Je n'ai pas pu définir un salon à auto-configurer. Merci de le configurer manuellement en utilisant `{{prefix}}welcome channel #mention`"
+            }
+        },
+        "punishments": {
+            "noHistory": "L'utilisateur n'a pas été puni sur ce serveur.",
+            "embed": {
+                "warned": "Averti(e)",
+                "warnedValue": "Averti(e) par {{- admin}}\nRaison: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "kicked": "Ejecté(e)",
+                "kickedValue": "Ejecté(e) par {{- admin}}\nRaison: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "banned": "Banni(e)",
+                "bannedValue": "Banni(e) par {{- admin}}\nRaison: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "title": "Historique de punitions pour {{user}}."
+            },
+            "notWarned": "Cet uilisateur n'a pas été averti sur ce serveur.",
+            "notKicked": "Cet uilisateur n'a pas été éjecté de ce serveur.",
+            "notBanned": "Cet uilisateur n'a pas été banni de ce serveur.",
+            "tooManyPunishments": "Cet utilisateur a trop de punitions à afficher en même temps, merci de préciser par type de punition.",
+            "expunged": {
+                "removed": "Vous avez effacé {{id}} de {{user}}.",
+                "noid": "Je n'ai pas pu trouver une punition pour cet identifiant ou il n'a pas été fourni."
+            }
+        },
+        "prune": {
+            "notNumeric": "Vous devez utiliser un nombre valide.",
+            "notInRange": "Vos devez utiliser un nombre entre 2 et 99.",
+            "pruned": "{{amount}} messages ont été supprimés de ce salon."
+        },
+        "warn": {
+            "noReason": "Vos devez fournir une raison avec cette punition.",
+            "broadcast": "{{admin}} a averti {{user}} pour {{reason}}.",
+            "higher": "Vous ne pouez pas avertir quelqu'un de supérieur ou d'égal à vous."
+        },
+        "kick": {
+            "broadcast": "{{admin}} a éjecté {{user}} pour {{reason}}.",
+            "cannot": "Cet utilisateur ne peut pas être éjecté.",
+            "higher": "Vous ne pouvez pas éjecter quelqu'un de supérieur ou d'égal à vous."
+        },
+        "ban": {
+            "broadcast": "{{admin}} a banni {{user}} pour {{reason}}.",
+            "cannot": "Cet utilisateur ne peut pas être banni.",
+            "higher": "Vous ne pouvez pas bannir quelqu'un de supérieur ou d'égal à vous."
+        },
+        "hug": {
+            "self": "**{{target}}** vous avez eu un câlin de {{bot}}, parce que personne d'autre n'a voulu le faire.",
+            "other": "**{{target}}** a eu un câlin de **{{user}}**."
+        },
+        "kiss": {
+            "self": "**{{target}}** s'est embrassé lui-même, le cinglé.",
+            "other": "**{{target}}** a été embrassé par **{{user}}**."
+        },
+        "choke": {
+            "self": "{{target}} s'est étranglé lui-même, le coquin.",
+            "other": "**{{target}}** a été étranglé avec la force par **{{user}}**."
+        },
+        "shoot": {
+            "self": "Vous ne pouvez pas vous tirer dessus, 09 72 39 40 50.",
+            "other": "**{{target}}** a été tiré dessus par **{{user}}**."
+        },
+        "duel": {
+            "self": "Vous ne pouvez pas vous provoquer en duel par définiton.",
+            "other": "**{{user}}** a provoqué **{{target}}** en duel."
+        },
+        "swapi": {
+            "notValidType": "Désolé, ceci n'est pas une option valide, les options valides sont: {{options}}.",
+            "noResults": "Désolé, je n'ai pas pu trouver de résultats."
+        },
+        "8ball": {
+            "answer": "La réponse est: {{answer}}.",
+            "question": "Vous devez poser une question à la boule magique !"
+        },
+        "set": {
+            "leveling": {
+                "enabled": "Vous avez activé le système de niveau sur ce serveur.",
+                "disabled": "Vous avez désactivé le système de niveau sur ce serveur."
+            }
+        },
+        "maintenance": {
+            "titles": {
+                "upcoming": "Maintenance: Bientôt !",
+                "in_progress": "Maintenance: En cours !",
+                "past": "Maintenance: Terminée !"
+            },
+            "bodies": {
+                "upcoming": "La maintenance commence dans {{days}} jours, {{hours}} heures, et {{minutes}} minutes.",
+                "in_progress": "La maintenance se termine dans {{days}} jours, {{hours}} heures, et {{minutes}} minutes.",
+                "past": "La maintenance s'est terminée il y a {{days}} jours, {{hours}} heures, et {{minutes}} minutes."
+            },
+            "unavailable": "Il n'y a actuellement aucun calendrier de maintenance de disponible.",
+            "connection": "Il y a eu un problème en essayant de se connecter à SWTORdata.com."
+        },
+        "noexp": "Vous avez défini votre gain d'expérience à {{condition}}.",
+        "credits": "Vous avez actuellement :credits: {{credits}}."
+    },
+    "common": {
+        "errors": {
+            "runtime": "Il s'est produit une erreur en utilisant cette commande.",
+            "nouser": "Il s'est produit une erreur en essayant de charger cet utilisateur.",
+            "notFound": "Je n'ai pas pu trouver cet utilisateur.",
+            "noPermission": "Vous n'avez pas la permission d'utiliser cette commande."
+        }
+    }
+}

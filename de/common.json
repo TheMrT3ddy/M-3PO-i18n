@@ -1,0 +1,67 @@
+{
+    "systemMessages": {
+        "joinMessages": [
+            "Es ist mir zu Ohren gekommen, dass {{- user}} in 12 Systememn zum Tode verurteilt ist.",
+            "{{- user}} ist in Landebucht 94 gelandet.",
+            "{{- user}} hat soeben den Hyperraum verlassen.",
+            "RAWRGWAWGGR {{- user}} RRWWWGG.",
+            "Es ist vorbei! {{- user}} steht weit über uns!",
+            "Es ist Zeit für {{- user}} das training zu beenden...",
+            "Die Macht hat {{- user}} zu uns geleitet.",
+            "Du warst mein Bruder, {{- user}}. Ich habe dich geliebt!",
+            "{{- user}} kam hier her um an der Großen Jagd teilzunehmen.",
+            "{{- user}} ist daran interessiertt, imperiale Verstrickungen zu vermeiden.",
+            "T7 + {{- user}} = halten täglich das unaufhaltsame auf!",
+            "{{- user}} hat ein schlechtes Gefühl bei der Sache.",
+            "Liebes Czerka; Bitte hör auf, schreckliche antike Dinge zu entdecken. Grüße, {{- user}}.",
+            "Braucht ihr irgendetwas, {{- user}}? Eine heiße Mahlzeit? Ein Gespräch? Eine Fußmassage? Du musst es nur sagen.",
+            "{{- user}} hat ein exzellentes Sabacc-face. Nur Spaß, die hassen sabacc.",
+            "{{- user}} würde liebe rAlderaan zerstört sehen als dem Imperium in die Hände zu fallen.",
+            "{{- user}} wurde von der Macht gerufen.",
+            "Ist hier auf irgendwen ein kopfgeld ausgesetzt? {{- user}} würde es gerne einsammeln?",
+            "Der imperiale Geheimdienst hat {{- user}} als wichtiges Ziel indentifiziert.",
+            "Die Republik braucht Leute wie {{- user}}!",
+            "{{- user}} hat die beste Hardware und die besten Preise!",
+            "Sei vorsichtig nicht an deinen Aspirationen zu ersticken, {{- user}}.",
+            "{{- user}}, wir brauchen ein Statement, kein Manifest.",
+            "{{- user}}, wird nun sehen, wie der Chaostrupp die Sache angeht.",
+            "Komm schon {{- user}} alter Freund, lass mich nicht sitzen!",
+            "TK-{{- user}}, warum sind sie nicht auf ihrem Posten?",
+            "{{- user}} ist ein loyaler Diener des Imperiums.",
+            "{{- user}}’s aktivitäten sind vom Imperialen Geheimdienst autorisiert.",
+            "Kopfgeldjäger machen ihre eigenen Regeln, {{- user}}",
+            "{{- user}} wird die Republik in die Knie zwingen.",
+            "Jetzt wirst du sehen, wozu ein Sith fähig ist, {{- user}}.",
+            "Das ist doch nicht Furcht, was ich da rieche, {{- user}}?",
+            "{{- user}} ist sehr gut für diesen Job.",
+            "{{- user}} ist stets professionell.",
+            "Wenn es eine Bezahlung gibt, ist {{- user}} interessiert.",
+            "Gefährliche Aufgaben sind was {{- user}} am besten macht.",
+            "Als Soldat der Republik ist es {{- user}}'s Pflicht zu helfen.",
+            "{{- user}} könnte einem Kraytdrachen die Hörner vom Kopf quatschen.",
+            "{{- user}} hat bereits 20.000 Jahre gewartet, wird aber kein Bisschen länger warten."
+        ],
+        "leaveMessage": "{{- user}} hat den Server verlassen."
+    },
+    "8ball": {
+        "answers": [
+            "eventuell", "auf keinen Fall", "definitiv nicht", "möglicherweise", "nichtmal in einer Millionen Jahren",
+            "höchstwahrscheinlich", "niemals", "Das würde ich eher nicht sagen", "es gibt eine minimale Chance",
+            "ja", "vermutlich nicht", "vermutlich schon", "haha, nein", "da hast du eine höhere Chance, im Lotto zu gewinnen",
+            "nein", "auf jeden Fall", "Aber sicher", "keinesfalls", "Ich bin mir nicht ganz sicher", "Ich weiß nicht", "Das willst du gar nicht wissen"
+        ]
+    },
+    "leveling": {
+        "levelup": "**{{user}}** du hast Level {{level}} erreicht!"
+    },
+    "time": {
+        "lessThanAMinute": "weniger als eine Minute",
+        "uptime": "Ich bin seit {{time}} online.",
+        "day": "{{count}} Tag",
+        "day_plural": "{{count}} Tage",
+        "hour": "{{count}} Stunde",
+        "hour_plural": "{{count}} Stunden",
+        "minute": "{{count}} Minute",
+        "minute_plural": "{{count}} Minuten"
+    }
+}

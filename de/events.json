@@ -1,0 +1,32 @@
+{
+    "guildMemberUpdate": {
+        "nickname": {
+            "description": "{{user}} hat seinen Nickname geupdated.",
+            "oldNickname": "Vorheriger Nickname",
+            "newNickname": "Neuer Nickname"
+        },
+        "username": {
+            "description": "{{user}} hat seinen Nutzernamen geupdated.",
+            "oldUsername": "Vorheriger Nutzername",
+            "newUsername": "Neuer Nutzername"
+        },
+        "avatar": {
+            "description": "{{user}} hat seinen Avatar geupdated."
+        },
+        "user": "User: {{id}}"
+    },
+    "messageDelete": {
+        "description": "{{user}}'s Nachricht wurde gelöscht.",
+        "channel": "Channel",
+        "messageId": "Nachrichten ID",
+        "content": "Inhalt",
+        "noContent": "Kein Inhalt"
+    },
+    "messageUpdate": {
+        "description": "{{user}}'s Nachricht wurde editiert.",
+        "channel": "Channel",
+        "messageId": "Nachrichten ID",
+        "oldMessage": "Originale Nachricht",
+        "newMessage": "Geänderte Nachricht"
+    }
+}
