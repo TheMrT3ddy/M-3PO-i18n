@@ -1,29 +1,29 @@
 {
     "guildMemberUpdate": {
         "nickname": {
-            "description": "{{user}} a modifié leur pseudo.",
+            "description": "{{- user}} a modifié leur pseudo.",
             "oldNickname": "Pseudo précédent",
             "newNickname": "Nouveau pseudo"
         },
         "username": {
-            "description": "{{user}} a modifié leur nom d'utilisateur.",
+            "description": "{{- user}} a modifié leur nom d'utilisateur.",
             "oldUsername": "Nom d'utilisateur précédent",
             "newUsername": "Nouveau nom d'utilisateur"
         },
         "avatar": {
-            "description": "{{user}} a modifié leur photo de profil."
+            "description": "{{- user}} a modifié leur photo de profil."
         },
         "user": "Utilisateur: {{id}}"
     },
     "messageDelete": {
-        "description": "Le message de {{user}} a été supprimé.",
+        "description": "Le message de {{- user}} a été supprimé.",
         "channel": "Salon",
         "messageId": "Identifiant de message",
         "content": "Contenu",
         "noContent": "Pas de contenu"
     },
     "messageUpdate": {
-        "description": "Le message de {{user}} a été modifié.",
+        "description": "Le message de {{- user}} a été modifié.",
         "channel": "Salon",
         "messageId": "Identifiant de message",
         "oldMessage": "Message Original",

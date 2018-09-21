@@ -4,7 +4,7 @@ The purpose of this file is to help indicate which new changes need translations
 
 All references are to the /dev/ folder.
 
-Version: 0.1.12
+Version: 0.1.13
 
 **Prefix Key**  
 \+ added new node.  
@@ -13,9 +13,7 @@ Version: 0.1.12
 
 ### dev/core.json
 
-\+ commands.set.language.en  
-\+ commands.set.language.de  
-\+ commands.set.language.fr  
+\+ commands.roles.admin
 
 ### dev/common.json
 ### dev/events.json

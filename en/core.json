@@ -1,3 +1,183 @@
 {
-    
+    "commands": {
+        "ping": "The latency is {{ping}}ms.",
+        "prefix": {
+            "set": "You have updated the prefix to `{{prefix}}`.",
+            "current": "The current prefix is `{{prefix}}`."
+        },
+        "roles": {
+            "missing": "{{role}} was missing and readded.",
+            "set": "You have set the role channel to {{- channel}}.",
+            "noRole": "I couldn't find a role with that name.",
+            "added": "You have added the {{role}} role to user roles.",
+            "removed": "You have removed the {{role}} role from the user roles.",
+            "notSet": "You do not have a role channel set.",
+            "notFound": "I couldn't locate the currently set role channel.",
+            "legacy": {
+                "enabled": "You have enabled the legacy roles system.",
+                "disabled": "You have disabled the legacy roles system.",
+                "rebuild": "You cannot do this while legacy roles are enabled."
+            },
+            "embed": {
+                "content": "If you want the {{- role}} role, react below!"
+            },
+            "list": "You have the following roles assignable by users: {{list}}",
+            "admin": "For security reasons you cannot have a role with 'Administrator' access as user assignable."
+        },
+        "help": {
+            "sent": "I've sent you a DM with all the commands!",
+            "nodm": "I couldn't send you a DM! Do you have DMs disabled for this server?!",
+            "notfound": "That is not a valid command.",
+            "reply": {
+                "alias": "Alias",
+                "alias_plural": "Aliases",
+                "usage": "Usage"
+            }
+        },
+        "botlogs": {
+            "enable": "You have enabled the bot logs system.",
+            "disable": "You have disabled the bot logs system.",
+            "nochannel": "You do not have a bot logs channel set.",
+            "set": "You have set the bot logs channel to {{- channel}}.",
+            "notfound": "You did not mention a channel or it couldn't be found in this server."
+        },
+        "role": {
+            "notEnabled": "The legacy role assignment system is not enabled on this server.",
+            "notAssignable": "You cannot assign that role to yourself or it doesn't exist."
+        },
+        "profile": {
+            "none": {
+                "self": "You do not have a profile available, try talking first.",
+                "other": "{{user}} does not have a profile available."
+            },
+            "embed": {
+                "title": {
+                    "self": "Your profile",
+                    "other": "{{- user}}'s profile"
+                },
+                "detail": "You are level {{level}}.\nExperience: {{curent}}/{{needed}}"
+            }
+        },
+        "welcome": {
+            "join": {
+                "enabled": "You have enabled join messages.",
+                "disabled": "You have disabled join messages."
+            },
+            "leave": {
+                "enabled": "You have enabled leave messages.",
+                "disabled": "You have disabled join messages."
+            },
+            "set": "I have set the channel {{- channel}} as the join/leave channels.",
+            "auto": {
+                "set": {
+                    "welcome": "I have automatically found the {{- channel}} channel and configured it for join and leave messages.",
+                    "system": "I have automatically found the {{- channel}} channel and configured it for join and leave messages. You should diable the welcome messages in Discord's UI as I don't have permission to change this."
+                },
+                "error": "I couldn't determine a channel to auto-configure. Please setup manually by using `{{prefix}}welcome channel #mention`"
+            }
+        },
+        "punishments": {
+            "noHistory": "The user has not been punished on this server.",
+            "embed": {
+                "warned": "Warned",
+                "warnedValue": "Warned by {{- admin}}\nReason: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "kicked": "Kicked",
+                "kickedValue": "Kicked by {{- admin}}\nReason: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "banned": "Banned",
+                "bannedValue": "Banned by {{- admin}}\nReason: {{reason}}\n{{date}}|ID:`{{id}}`",
+                "title": "Punishment History for {{user}}."
+            },
+            "notWarned": "This user has not been warned on this server.",
+            "notKicked": "This user has not been kicked on this server.",
+            "notBanned": "This user has not been banned on this server.",
+            "tooManyPunishments": "This user has too many punishments to display at once, please narrow by type of punishment.",
+            "expunged": {
+                "removed": "You have expunged {{id}} from {{user}}.",
+                "noid": "I couldn't find a punishment by that id or it wasn't provided."
+            }
+        },
+        "prune": {
+            "notNumeric": "You need to provide a valid number.",
+            "notInRange": "You need to provide a number between 2 and 99.",
+            "pruned": "{{amount}} messages have been pruned from this channel."
+        },
+        "warn": {
+            "noReason": "You must provide a reason with this punishment.",
+            "broadcast": "{{admin}} has warned {{user}} for {{reason}}.",
+            "higher": "You cannot warn someone higher than or equal to you."
+        },
+        "kick": {
+            "broadcast": "{{admin}} has kicked {{user}} for {{reason}}.",
+            "cannot": "This user cannot be kicked",
+            "higher": "You cannot kick someone higher than or equal to you."
+        },
+        "ban": {
+            "broadcast": "{{admin}} has banned {{user}} for {{reason}}.",
+            "cannot": "This user cannot be banned.",
+            "higher": "You cannot ban someone higher than or equal to you."
+        },
+        "hug": {
+            "self": "**{{target}}** you were hugged by {{bot}}, cause nobody else would.",
+            "other": "**{{target}}** was hugged by **{{user}}**."
+        },
+        "kiss": {
+            "self": "**{{target}}** kissed themself, what a weirdo.",
+            "other": "**{{target}}** was kissed by **{{user}}**."
+        },
+        "choke": {
+            "self": "{{target}} choked themself, kinky.",
+            "other": "**{{target}}** was force choked by *8{{user}}**."
+        },
+        "shoot": {
+            "self": "You can't shoot yourself, 1-800-273-8255.",
+            "other": "**{{target}}** was shot by **{{user}}**."
+        },
+        "duel": {
+            "self": "You can't duel yourself by definition.",
+            "other": "**{{user}}** challenged **{{target}}** to a duel."
+        },
+        "swapi": {
+            "notValidType": "Sorry, that is not a valid type, the valid options are: {{options}}.",
+            "noResults": "Sorry, I couldn't find any results."
+        },
+        "8ball": {
+            "answer": "The answer is: {{answer}}.",
+            "question": "You need to ask the magic 8ball a question!"
+        },
+        "set": {
+            "leveling": {
+                "enabled": "You have enabled the leveling system for this server.",
+                "disabled": "You have disabled the leveling system for this server."
+            },
+            "language": {
+                "fr": "You have set the language to French.",
+                "en": "You have set the language to English.",
+                "de": "You have set the language to German."
+            }
+        },
+        "maintenance": {
+            "titles": {
+                "upcoming": "Maintenance: Upcoming!",
+                "in_progress": "Maintenance: In Progress!",
+                "past": "Maintenance: Ended!"
+            },
+            "bodies": {
+                "upcoming": "Maintenance begins in {{days}} days, {{hours}} hours, and {{minutes}} minutes.",
+                "in_progress": "Maintenance ends in {{days}} days, {{hours}} hours, and {{minutes}} minutes.",
+                "past": "Maintenance concluded {{days}} days, {{hours}} hours, and {{minutes}} minutes ago."
+            },
+            "unavailable": "There is currently no maintenance schedule available.",
+            "connection": "There was a problem trying to reach SWTORdata.com."
+        },
+        "noexp": "You have set your exp gain to {{condition}}.",
+        "credits": "You currently have :credits: {{credits}}."
+    },
+    "common": {
+        "errors": {
+            "runtime": "There was an error during the running of this command.",
+            "nouser": "There was a problem trying to load that user.",
+            "notFound": "I couldn't locate that user.",
+            "noPermission": "You do not have the permission to use this command."
+        }
+    }
 }

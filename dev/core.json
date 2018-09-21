@@ -21,7 +21,8 @@
             "embed": {
                 "content": "If you want the {{- role}} role, react below!"
             },
-            "list": "You have the following roles assignable by users: {{list}}"
+            "list": "You have the following roles assignable by users: {{list}}",
+            "admin": "For security reasons you cannot have a role with 'Administrator' access as user assignable."
         },
         "help": {
             "sent": "I've sent you a DM with all the commands!",
