@@ -15,6 +15,14 @@
         },
         "user": "Utilisateur: {{id}}"
     },
+    "guildMemberAdd": {
+        "description": "{{- user}} a rejoint {{guild}}.",
+        "createdAt": "Créé à",
+        "bot": "est le bot"
+    },
+    "guildMemberRemove": {
+        "description": "{{- user}} a quitté {{guild}}."
+    },
     "messageDelete": {
         "description": "Le message de {{- user}} a été supprimé.",
         "channel": "Salon",
