@@ -63,5 +63,9 @@
         "hour_plural": "{{count}} hours",
         "minute": "{{count}} minute",
         "minute_plural": "{{count}} minutes"
+    },
+    "words": {
+        "yes": "yes",
+        "no": "no"
     }
 }
