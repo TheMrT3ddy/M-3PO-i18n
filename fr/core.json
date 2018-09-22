@@ -21,7 +21,8 @@
             "embed": {
                 "content": "Si vous voulez le rôle {{- role}}, réagissez en-dessous !"
             },
-            "list": "Les rôles suivants peuvent être attribués aux utilisateurs: {{list}}"
+            "list": "Les rôles suivants peuvent être attribués aux utilisateurs: {{list}}",
+            "admin": "Pour des raisons de sécurité vous ne pouvez pas avoir un rôle avec un accès 'Administrateur' attribuable à un utilisateur."
         },
         "help": {
             "sent": "Je vous ai envoyé un message privé avec toutes les commandes !",
@@ -164,7 +165,10 @@
             "connection": "Il y a eu un problème en essayant de se connecter à SWTORdata.com."
         },
         "noexp": "Vous avez défini votre gain d'expérience à {{condition}}.",
-        "credits": "Vous avez actuellement :credits: {{credits}}."
+        "credits": "Vous avez actuellement :credits: {{credits}}.",
+        "mentionable": {
+            "canMention": "{{role}} peut déjà être mentionné.",
+            "set": "Vous pouvez maintenant mentionner {{role}}. Il sera automatiquement impossible de le mentionner lorsqu'il le sera."
     },
     "common": {
         "errors": {
