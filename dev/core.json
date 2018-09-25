@@ -22,7 +22,11 @@
                 "content": "If you want the {{- role}} role, react below!"
             },
             "list": "You have the following roles assignable by users: {{list}}",
-            "admin": "For security reasons you cannot have a role with 'Administrator' access as user assignable."
+            "admin": "For security reasons you cannot have a role with 'Administrator' access as user assignable.",
+            "autorole": {
+                "disable": "You have disabled the automatic role assignment.",
+                "set": "You have set {{role}} to be automatically granted to new users."
+            }
         },
         "help": {
             "sent": "I've sent you a DM with all the commands!",

@@ -170,7 +170,11 @@
             "connection": "There was a problem trying to reach SWTORdata.com."
         },
         "noexp": "You have set your exp gain to {{condition}}.",
-        "credits": "You currently have :credits: {{credits}}."
+        "credits": "You currently have :credits: {{credits}}.",
+        "mentionable": {
+            "canMention": "The {{role}} can already be mentioned.",
+            "set": "You can now mention {{role}}. It will be automatically set to non-mentionable when mentioned."
+        }
     },
     "common": {
         "errors": {

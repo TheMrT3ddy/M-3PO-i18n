@@ -4,7 +4,7 @@ The purpose of this file is to help indicate which new changes need translations
 
 All references are to the /dev/ folder.
 
-Version: 0.1.13-Rev2
+Version: 0.1.13-Rev3
 
 **Prefix Key**  
 \+ added new node.  
@@ -16,6 +16,8 @@ Version: 0.1.13-Rev2
 \+ commands.roles.admin
 \+ commands.mentionable.canMention
 \+ commands.mentionable.set
+\+ commands.roles.autorole.disable
+\+ commands.roles.autorole.set
 
 ### dev/common.json
 

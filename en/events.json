@@ -15,6 +15,14 @@
         },
         "user": "User: {{id}}"
     },
+    "guildMemberAdd": {
+        "description": "{{- user}} has joined {{guild}}.",
+        "createdAt": "Created at",
+        "bot": "Is Bot"
+    },
+    "guildMemberRemove": {
+        "description": "{{- user}} has left {{guild}}."
+    },
     "messageDelete": {
         "description": "{{- user}}'s message was deleted.",
         "channel": "Channel",

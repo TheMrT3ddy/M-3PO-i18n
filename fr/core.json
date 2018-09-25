@@ -169,13 +169,14 @@
         "mentionable": {
             "canMention": "{{role}} peut déjà être mentionné.",
             "set": "Vous pouvez maintenant mentionner {{role}}. Il sera automatiquement impossible de le mentionner lorsqu'il le sera."
-    },
-    "common": {
-        "errors": {
-            "runtime": "Il s'est produit une erreur en utilisant cette commande.",
-            "nouser": "Il s'est produit une erreur en essayant de charger cet utilisateur.",
-            "notFound": "Je n'ai pas pu trouver cet utilisateur.",
-            "noPermission": "Vous n'avez pas la permission d'utiliser cette commande."
+        },
+        "common": {
+            "errors": {
+                "runtime": "Il s'est produit une erreur en utilisant cette commande.",
+                "nouser": "Il s'est produit une erreur en essayant de charger cet utilisateur.",
+                "notFound": "Je n'ai pas pu trouver cet utilisateur.",
+                "noPermission": "Vous n'avez pas la permission d'utiliser cette commande."
+            }
         }
     }
 }
