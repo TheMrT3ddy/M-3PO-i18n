@@ -148,7 +148,22 @@
             "leveling": {
                 "enabled": "Vous avez activé le système de niveau sur ce serveur.",
                 "disabled": "Vous avez désactivé le système de niveau sur ce serveur."
-            }
+            },            
+            "language": {
+                "fr": "Vous avez défini la langue en français.",
+                "en": "You have set the language to English.",
+                "de": "Sie haben die Sprache auf Deutsch eingestellt."
+            },
+            "permission": {
+                "owner": "Vous ne pouvez pas écraser la permission d'une commande propre au propriétaire du bot.",
+                "set": "Vous avez défini les conditions pour utiliser la commande {{command}} à {{role}} et au-dessus.",
+                "unset": "Vous avez retiré l'écrasement de la permission personnalisée pour {command}}."
+            },
+            "tdisabled": {
+                "disabled": "Vous avez désactivé l'utilisation de la commande {{command}}.",
+                "enabled": "Vous avez réactivé l'utilisation de la commande {{command}}."
+            },
+            "invalid": "{{setting}} n'est pas un paramètre valide pour cette commande."
         },
         "maintenance": {
             "titles": {
@@ -172,7 +187,7 @@
         },
         "common": {
             "errors": {
-                "runtime": "Il s'est produit une erreur en utilisant cette commande.",
+                "runtime": "Il s'est produit une erreur lors de l'exécution de cette commande.",
                 "nouser": "Il s'est produit une erreur en essayant de charger cet utilisateur.",
                 "notFound": "Je n'ai pas pu trouver cet utilisateur.",
                 "noPermission": "Vous n'avez pas la permission d'utiliser cette commande."
