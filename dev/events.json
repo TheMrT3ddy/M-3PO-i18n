@@ -28,7 +28,8 @@
         "channel": "Channel",
         "messageId": "Message ID",
         "content": "Content",
-        "noContent": "No Content"
+        "noContent": "No Content",
+        "deletedBy": "Deleted By"
     },
     "messageUpdate": {
         "description": "{{- user}}'s message was edited.",

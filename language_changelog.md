@@ -4,7 +4,7 @@ The purpose of this file is to help indicate which new changes need translations
 
 All references are to the /dev/ folder.
 
-Version: 0.1.13-Rev3
+Version: 0.2.1
 
 **Prefix Key**  
 \+ added new node.  
@@ -13,20 +13,20 @@ Version: 0.1.13-Rev3
 
 ### dev/core.json
 
-\+ commands.roles.admin
-\+ commands.mentionable.canMention
-\+ commands.mentionable.set
 \+ commands.roles.autorole.disable
 \+ commands.roles.autorole.set
+\+ commands.set.permission.owner
+\+ commands.set.permission.set
+\+ commands.set.permission.unset
+\+ commands.set.tdisabled.disabled
+\+ commands.set.tdisabled.enabled
+\+ commands.set.invalid
+\* common.errors.runtime
 
 ### dev/common.json
 
-\+ words.yes
-\+ words.no
+
 
 ### dev/events.json
 
-\+ guildMemberAdd.description
-\+ guildMemberAdd.createdAt
-\+ guildMemberAdd.bot
-
+\+ messageDelete.deletedBy

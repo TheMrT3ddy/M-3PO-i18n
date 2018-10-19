@@ -157,7 +157,17 @@
                 "fr": "You have set the language to French.",
                 "en": "You have set the language to English.",
                 "de": "You have set the language to German."
-            }
+            },
+            "permission": {
+                "owner": "You cannot overwrite the permission of a bot owner command.",
+                "set": "You have set the requirement to use the {{command}} command to {{role}} and above.",
+                "unset": "You have removed the custom permission overwrite on {command}}."
+            },
+            "tdisabled": {
+                "disabled": "You have disabled the use of the {{command}} command.",
+                "enabled": "You have re-enabled the use of the {{command}} command."
+            },
+            "invalid": "{{setting}} is not a valid setting for this command."
         },
         "maintenance": {
             "titles": {
@@ -182,7 +192,7 @@
     },
     "common": {
         "errors": {
-            "runtime": "There was an error during the running of this command.",
+            "runtime": "There was an error during the execution of this command.",
             "nouser": "There was a problem trying to load that user.",
             "notFound": "I couldn't locate that user.",
             "noPermission": "You do not have the permission to use this command."
