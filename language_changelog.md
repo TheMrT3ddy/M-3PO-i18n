@@ -13,15 +13,15 @@ Version: 0.2.1
 
 ### dev/core.json
 
-\+ commands.roles.autorole.disable
-\+ commands.roles.autorole.set
-\+ commands.set.permission.owner
-\+ commands.set.permission.set
-\+ commands.set.permission.unset
-\+ commands.set.tdisabled.disabled
-\+ commands.set.tdisabled.enabled
-\+ commands.set.invalid
-\* common.errors.runtime
+\+ commands.roles.autorole.disable  
+\+ commands.roles.autorole.set  
+\+ commands.set.permission.owner  
+\+ commands.set.permission.set  
+\+ commands.set.permission.unset  
+\+ commands.set.tdisabled.disabled  
+\+ commands.set.tdisabled.enabled  
+\+ commands.set.invalid  
+\* common.errors.runtime  
 
 ### dev/common.json
 
