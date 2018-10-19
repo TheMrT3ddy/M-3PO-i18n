@@ -28,7 +28,8 @@
         "channel": "Salon",
         "messageId": "Identifiant de message",
         "content": "Contenu",
-        "noContent": "Pas de contenu"
+        "noContent": "Pas de contenu",
+        "deletedBy": "Supprimé par"
     },
     "messageUpdate": {
         "description": "Le message de {{- user}} a été modifié.",
